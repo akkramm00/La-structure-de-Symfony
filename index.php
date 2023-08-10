@@ -42,9 +42,16 @@ Grace à l'utilisation des namespaces et de "use", il n'est plus nécessaire d'u
   +++ Controller : contient tous les contollers (les vrais moteur de code qui retournent cdes réponses au types voulus)
   +++ Entity : contient les entités qui correspondent aux tables de labase de données .
   +++ Repository : contient les requetes que Doctrine utilise pour intéragir avec la base de données .
-  
 
-  
+  REMARQUE : Souvent on retrouve d'autres dossiers selon les besoins , parlons des plus courants : DataFixitures et Form.
+
+  ++++ DataFixtures: Contient es Fixtures qui permettent d'inserer de fausses données en BDD pour faciliter le developpement.
+
+  ++++ Form : Contient les formulaires qui sont souvent "mappés" par Symfony, ce qui sa puissance 
+
+  ++++ Kernel.php : (Kernel = noyau) c'est lui qui va etre applé dès le début pour configurer l'ensemble d la stack Symfony (lire la configuration, tout instancier , appeler les controllers ) afin de traiter la requête en réponse.
+
+  Comprenez bien que c'est dans ce dossier "src" que vous devez mettre tout votre code PHP , ainsi si vous vous devez créer des services par exemple, vous créerez un dossier de ce nom et y insérerez vos differents fichiers de service dedans .
   
 </p>
 
