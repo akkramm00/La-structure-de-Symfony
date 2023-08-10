@@ -9,4 +9,9 @@ use Symfony\Component\HttpFoundation\Request ;
 use Symfony\Component\Routing\Annotation\Route;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\PassWordHsher\Hasher\UserPasswordHasherInterface;
+
+class UserContyroller extends AbstractController
+  {
+    
+  }
 ?>
