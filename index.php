@@ -52,6 +52,13 @@ Grace à l'utilisation des namespaces et de "use", il n'est plus nécessaire d'u
   ++++ Kernel.php : (Kernel = noyau) c'est lui qui va etre applé dès le début pour configurer l'ensemble d la stack Symfony (lire la configuration, tout instancier , appeler les controllers ) afin de traiter la requête en réponse.
 
   Comprenez bien que c'est dans ce dossier "src" que vous devez mettre tout votre code PHP , ainsi si vous vous devez créer des services par exemple, vous créerez un dossier de ce nom et y insérerez vos differents fichiers de service dedans .
+
+  +++ Templates : ce dossier contient tous nos tempaltes  qui par défaut sont en Twig et seront nommés "nom_de_fichier.html.twig".
+
+  +++ Tests: Ce dossier contient tous les tests unitaires ainsi que fonctonnels créés avec PHPUnit.
+ L'arborescence devtra etre similaire àcelle du dossier "src/".
+
+  +++Translations : Ce dossier est facultatif, il est utilisé pour la traduction. Pour mettre en place ce système, il faudra installer le package "translation".
   
 </p>
 
