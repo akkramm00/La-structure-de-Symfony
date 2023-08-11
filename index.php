@@ -59,7 +59,17 @@ Grace à l'utilisation des namespaces et de "use", il n'est plus nécessaire d'u
  L'arborescence devtra etre similaire àcelle du dossier "src/".
 
   +++Translations : Ce dossier est facultatif, il est utilisé pour la traduction. Pour mettre en place ce système, il faudra installer le package "translation".
-  
+
+  +++ Var : Ce dossier constamment réécrit et utilisé par le serveur sert principalement pour stocker le cache , les sessions ou encore les logs.
+
+  +++ Vendor : Ce dossier est créé lorsque Composer installe les différentes dépendances pour le projet à partir de composer.json.
+
+  +++Composer.json : Ce fichier contient tous les packages installés et mis a jour dans votre projet.
+
+  +++ Composer.lock : Ce fichier permet à composer de retracer la version de chaque dépendance installée dans le projet.
+
+  Bien sur , vous pourrez etre ammené à inserer d'autres dossiers ou fichiers dans votre structure comme des fichiers .env à la racine , ou docker si vous l'utilisez, mais vous avez ici une arborescence type de symfony 5 ou 6.
+   Cette structure plus ou moins imposée est un gros avantage car elle permet aux développeurs de s'y retrouver facilement dans n'importe quel projet et de gagner du temps dans la navigation entre les différents dossiers.
 </p>
 
   </body>
